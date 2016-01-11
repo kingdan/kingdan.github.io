@@ -89,6 +89,8 @@
     <div class="article-entry" itemprop="articleBody">
       
         <h1 id="Welcome"><a href="#Welcome" class="headerlink" title="Welcome"></a>Welcome</h1><h2 id="Demo_blog_entry"><a href="#Demo_blog_entry" class="headerlink" title="Demo blog entry"></a>Demo blog entry</h2><p>Today I’m testing Hexo.io.  This is a link to a <a href="https://www.youtube.com/embed/Q3ur8wzzhBU" title="Iot Intel" target="_blank" rel="external">IoT</a> clip.</p>
+<p>youtube Q3ur8wzzhBU</p>
+<p>hexo.extend.tag.register(‘youtube’, function(args){<br>  var id = args[0];<br>  return ‘<div class="video-container"><iframe width="560" height="315" src="http://www.youtube.com/embed/' + id + '" frameborder="0" allowfullscreen></iframe></div>‘;<br>});</p>
 <p><code>Code block</code></p>
 
       
